@@ -1,8 +1,8 @@
 apply plugin: 'com.android.library'
 
+
 android {
     compileSdkVersion 25
-
 
 
     defaultConfig {
@@ -21,10 +21,31 @@ android {
         }
     }
 
+    android {
+        lintOptions {
+            checkReleaseBuilds false
+            abortOnError false
+        }
+    }
+
+
 }
+
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-
     implementation 'com.android.support:appcompat-v7:25.+'
+}
+
+apply plugin: 'maven'
+uploadArchives{
+    repositories.mavenDeployer{
+        def deployPath = file(getProperty('aar.zswitchfragment'))
+        repository(url:"file://${deployPath.absolutePath}")
+        pom.project{
+            groupId "com.zyc.sw.fragment"
+            artifactId "zswitchfragment"
+            version "1.0"
+        }
+    }
 }
