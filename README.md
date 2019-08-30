@@ -2,7 +2,9 @@
 点击底部按钮，切换fragment
 
 使用方法：
-layout文件
+
+    layout文件
+
     <com.zyc.sw.fragment.view.ZFlContainView
             android:id="@+id/zFlContainView"
             android:layout_width="match_parent"
@@ -166,6 +168,11 @@ layout文件
         }
         return list;
     }
+
+    # 截图
+
+    <img src="https://github.com/ilvhmfer/zswitchfragment/jpg/r1.png"/>
+
 
 
 
