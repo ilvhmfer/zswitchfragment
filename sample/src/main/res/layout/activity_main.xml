@@ -12,6 +12,15 @@
         android:id="@+id/zFlContainView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        app:loc="bottom"
+        app:bottomHeight="50dp"
+        app:bottomPadBottom="0dp"
+        app:bottomPadTop="0dp"
+        app:bottomPadLeft="0dp"
+        app:bottomPadRight="0dp"
         app:hasDivider="true"
+        app:dividerColor="#333333"
+        app:dividerWidth="1dp"
+        app:dividerMarginTopAndBottom="5dp"
         app:bottomBackgroundColor="#652344" />
 </LinearLayout>

@@ -80,18 +80,18 @@ public class ZFlContainView extends LinearLayout {
             if(bottomHeight <= 0) {
                 bottomHeight = mDefaultBottomHeight;
             }
-            int bottomPadTop = array.getInt(R.styleable.ZFlContainView_bottomPadTop, 0);
-            int bottomPadLeft = array.getInt(R.styleable.ZFlContainView_bottomPadLeft, 0);
-            int bottomPadBottom = array.getInt(R.styleable.ZFlContainView_bottomPadBottom, 0);
-            int bottomPadRight = array.getInt(R.styleable.ZFlContainView_bottomPadRight, 0);
+            int bottomPadTop = (int) array.getDimension(R.styleable.ZFlContainView_bottomPadTop, 0);
+            int bottomPadLeft = (int) array.getDimension(R.styleable.ZFlContainView_bottomPadLeft, 0);
+            int bottomPadBottom = (int) array.getDimension(R.styleable.ZFlContainView_bottomPadBottom, 0);
+            int bottomPadRight = (int) array.getDimension(R.styleable.ZFlContainView_bottomPadRight, 0);
             int bottomBackgroundColor = array.getColor(R.styleable.ZFlContainView_bottomBackgroundColor, -1);
             //
             boolean hasDivider = array.getBoolean(R.styleable.ZFlContainView_hasDivider, false);
             if(hasDivider) {
                 dividerParams = new LayoutParams(1, ViewGroup.LayoutParams.MATCH_PARENT);
                 dividerColor = array.getColor(R.styleable.ZFlContainView_dividerColor, Color.WHITE);
-                dividerParams.width = array.getInt(R.styleable.ZFlContainView_dividerWidth, 1);
-                int marginTAL = array.getInt(R.styleable.ZFlContainView_dividerMarginTopAndBottom, 0);
+                dividerParams.width = (int) array.getDimension(R.styleable.ZFlContainView_dividerWidth, 1);
+                int marginTAL = (int) array.getDimension(R.styleable.ZFlContainView_dividerMarginTopAndBottom, 0);
                 dividerParams.topMargin = marginTAL;
                 dividerParams.bottomMargin = marginTAL;
             }

@@ -35,8 +35,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(int index, ZItemData zViewData) {
                 if(zViewData.fragment == null){
+                    //按钮对应fragment
                     zViewData.fragment = new Fragment5("一级菜单切换fragment" + index);
                 }
+                zViewData.btnView.getViewData();//按钮数据信息
+                zViewData.btnView.getView();//按钮View
             }
         });
     }
