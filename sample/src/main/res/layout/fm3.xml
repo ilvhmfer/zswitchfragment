@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cccccc"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.zyc.sw.fragment.view.ZFlContainView
+        android:id="@+id/zFlContainView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:bottomBackgroundColor="#ffffff"
+        app:loc="bottom"
+        app:bottomHeight="60dp"
+        app:dividerColor="#000000"
+        app:hasDivider="true" />
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ZFlContainView">
+        <attr name="loc" format="integer">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+        </attr>
+        <attr name="bottomHeight" format="dimension"/>
+        <attr name="bottomPadTop" format="dimension"/>
+        <attr name="bottomPadLeft" format="dimension"/>
+        <attr name="bottomPadBottom" format="dimension"/>
+        <attr name="bottomPadRight" format="dimension"/>
+        <attr name="bottomBackgroundColor" format="color"/>
+        <attr name="hasDivider" format="boolean"/>
+        <attr name="dividerColor" format="color"/>
+        <attr name="dividerWidth" format="dimension"/>
+        <attr name="dividerMarginTopAndBottom" format="dimension"/>
+    </declare-styleable>
+
+
+
+</resources>
