@@ -3,7 +3,7 @@
 
 使用方法：
 
-    layout文件
+# layout文件
 
     <com.zyc.sw.fragment.view.ZFlContainView
             android:id="@+id/zFlContainView"
@@ -21,7 +21,7 @@
             app:dividerMarginTopAndBottom="5dp"
             app:bottomBackgroundColor="#652344" />
 
-    一、文本菜单
+# 一、文本菜单
 
     zFlContainView = (ZFlContainView) findViewById(R.id.zFlContainView);
     zFlContainView.setData(getSupportFragmentManager(), new Fragment1(), getData());
@@ -52,7 +52,7 @@
     }
 
 
-    二、图标菜单
+# 二、图标菜单
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -105,7 +105,7 @@
     }
 
 
-    三、图标+文本 菜单
+# 三、图标+文本 菜单
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -169,9 +169,10 @@
         return list;
     }
 
-    # 截图
+# 截图
 
-    <img src="https://github.com/ilvhmfer/zswitchfragment/blob/master/jpg/r1.png"/>
+
+<img src="https://github.com/ilvhmfer/zswitchfragment/blob/master/jpg/r1.png"/>
 
 
 
