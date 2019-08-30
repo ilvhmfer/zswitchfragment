@@ -171,7 +171,7 @@
 
     # 截图
 
-    <img src="https://github.com/ilvhmfer/zswitchfragment/jpg/r1.png"/>
+    <img src="https://github.com/ilvhmfer/zswitchfragment/blob/master/jpg/r1.png"/>
 
 
 
