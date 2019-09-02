@@ -21,6 +21,15 @@
             app:dividerMarginTopAndBottom="5dp"
             app:bottomBackgroundColor="#652344" />
 
+   	loc: 菜单位置，顶部，底部
+   	bottomHeight：菜单栏高度
+   	bottomPadTop：菜单栏的padtop
+   	hasDivider:菜单之间是否有分割线
+   	dividerColor：分割线颜色
+   	dividerWidth：分割线宽度
+   	dividerMarginTopAndBottom：分割线距离上下边界的距离
+   	bottomBackgroundColor：菜单栏背景颜色
+
 # 一、文本菜单
 
     zFlContainView = (ZFlContainView) findViewById(R.id.zFlContainView);
