@@ -183,6 +183,8 @@
 
 <img src="https://github.com/ilvhmfer/zswitchfragment/blob/master/jpg/r1.png"/>
 
+# 使用中如有问题，请发邮件：121346023@qq.com
+
 
 
 
