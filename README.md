@@ -1,5 +1,5 @@
 # zswitchfragment
-点击底部按钮，切换fragment
+点击底部按钮，动态添加、切换fragment。支持自定义底部菜单View
 
 使用方法：
 
@@ -178,12 +178,17 @@
         return list;
     }
 
+# 四 自定义View
+
+    继承ZBaseView，或参考ZBaseView实现IView接口。
+
 # 截图
 
 
 <img src="https://github.com/ilvhmfer/zswitchfragment/blob/master/jpg/r1.png"/>
 
-# 使用中如有问题，请发邮件：121346023@qq.com
+
+## 使用中如有问题，请发邮件：121346023@qq.com
 
 
 
